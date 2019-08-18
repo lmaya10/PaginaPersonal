@@ -1,5 +1,5 @@
 body {
-
+  font-family: 'Amatic SC', cursive;
 }
 
 #lago {
@@ -24,8 +24,9 @@ body {
 .barra {
   background-color: rgba(21,120,142,1);
   text-align: center;
-  font-family: 'Teko', sans-serif;
-  font-size: 30px;
+  font-weight: bold;
+  height: 30px;
+  font-size: 20px;
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(4, 1fr);
 }

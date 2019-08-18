@@ -1,17 +1,10 @@
-se ve asi
-y he buscado un montonnn y no se si se pueda solucionar o si es por el formato de la imagen
-La idea es que la imagen ocupe todo?
-yo creeria que para ser responsive deberia ocuparla toda no ? y me parece que se ve mejo r
-Lo tienes en un repositorio público?
-yesss espera le hago push esta en github
-https://github.com/lmaya10/PaginaPersonal
-ya le hice push
-Pega esto en style
+
 html {
   height: 100%;
 }
 body {
   min-height: 100%;
+  font-family: 'Amatic SC', cursive;
 }
 
 .bg {
@@ -30,31 +23,33 @@ body {
 
 .overlay {
   min-height: 100vh;
-  background-color: rgba(233, 93, 3, 0.4);
 }
 
 .nomPrincipal {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Teko', sans-serif;
+  background-color: rgba(199 ,155,111,0.6);
+  width: 100%;
 }
 
-.barra {
-  background-color: rgba(232,151,105,0.4);
+.row {
+  background-color: rgba(232,151,105,0.6);
   text-align: center;
-  font-family: 'Teko', sans-serif;
-  font-size: 30px;
-  display: grid;
-  grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+  width: 100%;
+  font-size: 1.75em;
+}
+
+.row a {
+  color: black;
 }
 
 
 h1{
-  font-size: 50px;
+  font-size: 2.5em;
 }
 
 h2{
-  font-size: 50px;
+  font-size: 2.5em;
 }
 
 .barra a {

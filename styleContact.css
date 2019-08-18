@@ -1,5 +1,5 @@
 body {
-
+  font-family: 'Amatic SC', cursive;
 }
 
 #paisaje   {
@@ -25,19 +25,19 @@ body {
   align-content: center;
   width: 500px;
   height: 400px;
-  grid-template: repeat(4, 1fr)/ 30% 70%;
+  grid-template: repeat(5, 1fr)/ 30% 70%;
 }
 
-.contactMe p {
-  font-size: 120%
-  font-family: 'Teko', sans-serif;
+.contactMe p, a {
+  font-size: 120%;
 }
 
 .barra {
   background-color: rgba(247,244,13,1);
   text-align: center;
-  font-family: 'Teko', sans-serif;
-  font-size: 30px;
+  font-weight: bold;
+  height: 30px;
+  font-size: 20px;
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(4, 1fr);
 }
