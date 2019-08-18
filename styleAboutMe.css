@@ -10,19 +10,21 @@ body {
 .imgSuperior {
   position: fixed;
   width: 100%;
+  height: 200px;
   z-index: 2;
 }
 
 .content {
   position: relative;
-  top: 200px;
+  top: 20px;
   z-index: 1;
 }
 
 .barra {
   text-align: center;
+  height: 30px;
   font-family: 'Teko', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(4, 1fr);
 }
@@ -33,7 +35,6 @@ body {
 
 .actual {
   background-color: rgba(193,180,135,1);
-  transition: opacity 1;
 }
 
 #miFoto {
@@ -45,24 +46,61 @@ body {
 }
 
 #myInformation {
-  position: relative;
-  top: 100px;
-  padding:
+  content: "";
+  display: block;
+  padding-top: 250px;
+  margin-top: 0px;
 }
 
 .myInfo {
   width: 60%;
-  height: 500px;
+  height: 350px;
   margin: auto;
   display: grid;
   grid-template: 1fr / 1fr 2fr;
   grid-gap: 20px;
 }
 
-.lenguajes {
+.myInfo p {
+  font-family: 'Shadows Into Light', cursive;
+  text-align:   center  ;
+}
+
+#myLanguages {
   position: relative;
   width: 60%;
   margin: auto;
+  font-family: 'Lobster', cursive;
+  padding-top: 250px;
+  margin-top: -250px;
+
+}
+
+.lenguajes {
+}
+
+#skills {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width:  60%;
+  font-family:  'Lobster';
+  padding-top: 250px;
+  margin-top: -250px;
+}
+
+.programacion {
+  display:  grid;
+  width: 600px;
+  grid-template: 200px / repeat(4 , 1fr);
+  grid-gap:   80px;
+  justify-content:  center;
+  align-content:  center;
+}
+
+.imgCoding {
+  height:   150px;
+  width:  150px;
 }
 
 .porcentajes {
