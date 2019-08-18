@@ -15,11 +15,23 @@ body {
 
 .contenido {
   position: relative;
-  top: 200px;
+  top: 300px;
   z-index: 1;
-
 }
 
+.contactMe {
+  margin: auto;
+  display: grid;
+  align-content: center;
+  width: 500px;
+  height: 400px;
+  grid-template: repeat(4, 1fr)/ 30% 70%;
+}
+
+.contactMe p {
+  font-size: 120%
+  font-family: 'Teko', sans-serif;
+}
 
 .barra {
   background-color: rgba(247,244,13,1);
@@ -30,6 +42,10 @@ body {
   grid-template: repeat(1, 1fr) / repeat(4, 1fr);
 }
 
+.barra a {
+  color:black;
+}
+
 h1{
   font-size: 50px;
 }
@@ -38,6 +54,7 @@ h2{
   font-size: 50px;
 }
 
-.barra a {
-  color: black;
+.imgIcono {
+  width: 50px;
+  height: 50px;
 }
