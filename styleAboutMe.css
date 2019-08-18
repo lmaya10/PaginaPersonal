@@ -2,14 +2,27 @@ body {
 
 }
 
+#imagenRio {
+  width: 100%;
+  height: 150px;
+}
+
 .imgSuperior {
-  height: 100%;
-  width: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.contenido {
+  position: relative;
+  top: 200px;
+  z-index: 1;
+
 }
 
 
 .barra {
-  background-color: rgba(232,151,105,0.4);
+  background-color: rgba(13,162,33,1);
   text-align: center;
   font-family: 'Teko', sans-serif;
   font-size: 30px;
