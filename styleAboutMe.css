@@ -13,22 +13,90 @@ body {
   z-index: 2;
 }
 
-.contenido {
+.content {
   position: relative;
   top: 200px;
   z-index: 1;
-
 }
 
-
 .barra {
-  background-color: rgba(131,106,15,1);
   text-align: center;
   font-family: 'Teko', sans-serif;
   font-size: 30px;
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(4, 1fr);
 }
+
+.inicio {
+  background-color: rgba(131,106,15,1);
+}
+
+.actual {
+  background-color: rgba(193,180,135,1);
+  transition: opacity 1;
+}
+
+#miFoto {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  color: rgba(170,168,182,0.5);
+  border: 2px solid;
+}
+
+#myInformation {
+  position: relative;
+  top: 100px;
+}
+
+.myInfo {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  display: grid;
+  grid-template: 1fr / 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.lenguajes {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+
+.porcentajes {
+  display: grid;
+  margin: auto;
+  grid-template: repeat(3, 2fr) / 1fr 1fr;
+  color: black;
+  grid-row-gap: 10px;
+}
+
+.idioma {
+  width: 100%; /* Full width */
+  height: 40px;
+  background-color: #ddd; /* Grey background */
+
+}
+
+#Español {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(112,250,28,0.7);
+} /* Amarillo */
+
+#Ingles {
+  width: 90%;
+  height: 40px;
+  background-color: rgba(183,250,28,0.7)
+} /* Amarillo */
+
+#Frances {
+  width: 70%;
+  height: 40px;
+  background-color: rgba(213,250,28,0.7)
+} /* Amarillo */
+
 
 h1{
   font-size: 50px;
