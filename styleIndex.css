@@ -1,22 +1,42 @@
+se ve asi
+y he buscado un montonnn y no se si se pueda solucionar o si es por el formato de la imagen
+La idea es que la imagen ocupe todo?
+yo creeria que para ser responsive deberia ocuparla toda no ? y me parece que se ve mejo r
+Lo tienes en un repositorio público?
+yesss espera le hago push esta en github
+https://github.com/lmaya10/PaginaPersonal
+ya le hice push
+Pega esto en style
+html {
+  height: 100%;
+}
 body {
+  min-height: 100%;
+}
+
+.bg {
+  padding: 5% 0%;
+  /* The image used */
   background-image: url("Imagenes/JirafasFondo.png");
+
+  /* Full height */
+  min-height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #cccccc;
   background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-  height: auto;
+}
+
+.overlay {
+  min-height: 100vh;
+  background-color: rgba(233, 93, 3, 0.4);
 }
 
 .nomPrincipal {
-  background-color: rgba(233, 93, 3, 0.4);
   text-align: center;
   text-transform: uppercase;
   font-family: 'Teko', sans-serif;
-  margin: 30% auto;
 }
 
 .barra {
