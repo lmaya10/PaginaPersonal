@@ -139,17 +139,14 @@ a{
   top: 50px;
   margin: auto;
   width:  60%;
-  font-family:  'Lobster';
+  font-family: 'Lobster', cursive;
   padding-top: 250px;
   margin-top: -250px;
 }
 
 
 .programacion {
-  display:  grid;
   width: 600px;
-  grid-template: 200px / repeat(4 , 1fr);
-  grid-gap:   80px;
   justify-content:  center;
   align-content:  center;
 }
@@ -180,13 +177,13 @@ h2{
     z-index: 2;
   }
   .row {
-    height: 10vh;
     font-size: 10px;
     font-weight: bold;
     width: 100%;
     text-align: center;
   }
   .row.inicio {
+    height: 10vh;
     background-color: rgba(131,106,15,1);
     width: 100%;
     position: fixed;
@@ -196,14 +193,24 @@ h2{
   .row.actual {
     background-color: rgba(193,180,135,1);
     width: 100%;
-    top: 155px;
+    top: 175px;
     position: fixed;
+    height: 8vh;
 
   }
 
+  .row.programacion {
+    padding-top: 250px;
+  }
+
   .imgCoding {
-  height:   50px;
-  width:  50px;
-}
+    top: 150px;
+    width: 20vw;
+    height: 20vh;
+  }
+
+  footer {
+    top: 350px;
+  }
 
 }
