@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Laura Maya Diaz Personal Web Page">
@@ -10,6 +11,7 @@
   <!-- link font-->
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 
+  <!-- Titulo Pagina -->
   <title>Laura Maya Diaz</title>
 
   <!-- link favicon -->
@@ -19,7 +21,9 @@
 </head>
 <body>
 
+  <!-- Imagen top -->
   <img class="img-responsive" id = "lago" src = "Imagenes/Puno.png" alt = "Lago Titicaca" />
+  <!--Barra de navegacion-->
   <div class="container imgSuperior">
     <div class="row inicio">
       <div class = "col-md-3 col-xs-6">
@@ -37,6 +41,7 @@
     </div>
   </div>
 
+  <!--Contenido Páina-->
   <div class="content">
     <div class="container" id = "myFacts">
       <div class="row">
@@ -67,12 +72,14 @@
       </div>
     </div>
 
+    <!-- Script para calcular el número de dias para graduarme-->
     <script type>
       var finMaterias = new Date('2020-06-01');
       var hoy = new Date();
       var faltante = Math.ceil((finMaterias-hoy)/(1000*60*60*24));
     </script>
 
+    <!-- Escribir el mensaje en la pagina -->
     <div class="mensaje">
       <h2>
         <script>
@@ -83,11 +90,9 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+  <!-- Informacion pie de pagina-->
   <footer>
+    <!-- Script para conocer cuantos dias lleva habilitado el link -->
     <script>
       var fechaCreacion = new Date('2019-08-18');
       var hoy = new Date();
@@ -106,6 +111,10 @@
       days
     </p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,12 +1,25 @@
+/* Características del body*/
 body {
   font-family: 'Amatic SC', cursive;
 }
 
+/* Características pie de pagina*/
 footer{
   position: relative;
   top: 250px;
 }
 
+/*Características titulos h1*/
+h1{
+  font-size: 50px;
+}
+
+/*Características titulos h2*/
+h2{
+  font-size: 100px;
+}
+
+/*Características imagen lago*/
 #lago {
   width: 100%;
   height: 150px;
@@ -14,6 +27,7 @@ footer{
   z-index: 2;
 }
 
+/*Características imagen lago y barra de navegacion*/
 .imgSuperior {
   position: fixed;
   top: 150px;
@@ -21,22 +35,7 @@ footer{
   z-index: 2;
 }
 
-.content {
-  position: relative;
-  top: 180px;
-  z-index: 1;
-}
-
-#myFacts {
-  content: "";
-  display: block;
-  padding-top: 20px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5em;
-}
-
+/*Características barra de información*/
 .row.inicio {
   background-color: rgba(35,86,175,1);
   text-align: center;
@@ -48,10 +47,35 @@ footer{
   width: 100%;
 }
 
+/*Características letras barra*/
 .row a {
   color: black;
 }
 
+/*Características de las barras en pantalla pequeña*/
+.col-xs-6 {
+  background-color: rgba(35,86,175,1);
+}
+
+/* Característica generales del contenido*/
+.content {
+  position: relative;
+  top: 180px;
+  z-index: 1;
+}
+
+/* Características del contenedor de la información*/
+#myFacts {
+  content: "";
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+}
+
+/*Características de las fotos que se usan*/
 .fotos {
   width: 300px;
   height: 300px;
@@ -60,18 +84,7 @@ footer{
   border: 2px solid;
 }
 
-.col-xs-6 {
-  background-color: rgba(35,86,175,1);
-}
-
-h1{
-  font-size: 50px;
-}
-
-h2{
-  font-size: 100px;
-}
-
+/*Características pie de pagina*/
 .mensaje {
   color: black;
   position: relative;
@@ -80,6 +93,8 @@ h2{
   font-weight: bolder;
 }
 
+
+/*Características cuando la pantalla es pequeña*/
 @media only screen and (max-width:767px) {
 
   #lago {

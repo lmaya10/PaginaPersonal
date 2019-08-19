@@ -2,11 +2,23 @@
 html {
   height: 100%;
 }
+/* Caracteristicas Body */
 body {
   min-height: 100%;
   font-family: 'Teko', sans-serif;
 }
 
+/* Tamaño de los titulos h1*/
+h1{
+  font-size: 2.5rem;
+}
+
+/*Tamaño de los titulos h2*/
+h2{
+  font-size: 2.5rem;
+}
+
+/* Caracteristicas background */
 .bg {
   padding: 5% 0%;
   /* The image used */
@@ -25,6 +37,7 @@ body {
   min-height: 100vh;
 }
 
+/* Primer barra con nombre y bienvenida */
 .nomPrincipal {
   text-align: center;
   text-transform: uppercase;
@@ -32,35 +45,19 @@ body {
   width: 100%;
 }
 
-
+/*Caracteristicas barra navegación*/
 .row {
   background-color: rgba(255,127,80,0.4);
   text-align: center;
   font-size: 1.75rem;
 }
 
+/* Hacer la barra del ancho de la pantalla*/
 .container-fluid {
    width: 100%;
 }
 
+/*Letras en negro para las barras*/
 .row a {
   color: black;
-}
-
-
-h1{
-  font-size: 2.5rem;
-}
-
-h2{
-  font-size: 2.5rem;
-}
-
-.barra a {
-  color: black;
-}
-
-.piePagina {
-  color:white;
-
 }

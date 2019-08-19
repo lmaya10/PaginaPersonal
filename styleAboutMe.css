@@ -1,16 +1,30 @@
+/*Características Body */
 body {
   font-family: 'Amatic SC', cursive;
 }
 
+/*Características pie de pagina */
 footer{
   position: relative;
   top: 100px;
 }
 
+/*Características letras links*/
 a{
   color: black;
 }
 
+/*Características titulos h1*/
+h1{
+  font-size: 50px;
+}
+
+/*Características titulos h2*/
+h2{
+  font-size: 50px;
+}
+
+/*Características imagen rio*/
 #imagenRio {
   width: 100%;
   height: 150px;
@@ -18,6 +32,7 @@ a{
   z-index: 2;
 }
 
+/*Características contenedor barras navegación*/
 .imgSuperior {
   position: fixed;
   top: 150px;
@@ -25,17 +40,7 @@ a{
   z-index: 2;
 }
 
-.content {
-  position: relative;
-  top: 20px;
-  z-index: 1;
-}
-
-.myFacts {
-  position: relative;
-  top: 20px;
-}
-
+/*Características general barras*/
 .row {
   font-size: 20px;
   font-weight: bold;
@@ -44,12 +49,14 @@ a{
   height: 30px;
 }
 
+/*Caracteristicas barra navegación global*/
 .row.inicio {
   background-color: rgba(131,106,15,1);
   width: 100%;
   position: fixed;
 }
 
+/*Caracteristicas barra navegación local*/
 .row.actual {
   background-color: rgba(193,180,135,1);
   width: 100%;
@@ -57,14 +64,45 @@ a{
   position: fixed;
 }
 
+/*Características barra global pantalla pequeña*/
 .inicio.col-xs {
   background-color: rgba(131,106,15,1);
 }
 
+/*Características barra local pantalla pequeña*/
 .actual.col-xs {
   background-color: rgba(193,180,135,1);
 }
 
+/*Características contenido página*/
+.content {
+  position: relative;
+  top: 20px;
+  z-index: 1;
+}
+
+/*Características contenedor mi información*/
+#myInformation {
+  content: "";
+  display: block;
+  padding-top: 250px;
+  margin-top: 0px;
+}
+
+/*Caractefisticas de mi informacion*/
+.myInfo {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+}
+
+/*Caracteristicas texto mi información*/
+.myInfo p {
+  font-family: 'Shadows Into Light', cursive;
+  text-align:   center  ;
+}
+
+/*Características de mi foto*/
 #miFoto {
   width: 300px;
   height: 300px;
@@ -73,24 +111,7 @@ a{
   border: 2px solid;
 }
 
-#myInformation {
-  content: "";
-  display: block;
-  padding-top: 250px;
-  margin-top: 0px;
-}
-
-.myInfo {
-  width: 100%;
-  height: 350px;
-  margin: auto;
-}
-
-.myInfo p {
-  font-family: 'Shadows Into Light', cursive;
-  text-align:   center  ;
-}
-
+/*Características del contenedor de mis lenguajes*/
 #myLanguages {
   position: relative;
   width: 80%;
@@ -101,39 +122,45 @@ a{
 
 }
 
+/*Características contenedor de mis porcentajes*/
 .porcentajes {
   margin: auto;
   color: black;
 }
 
+/*Caracteristicas contenedor barras progreso*/
 .progress {
   height: 40px;
 }
 
+/*Características barras progreso*/
 .progress-bar {
   color: black;
   font-size: 20px;
 }
 
+/*Característica barra español*/
 #Español {
   height: 40px;
   width: 100%;
   background-color: rgba(112,250,28,0.7);
 }
 
+/*Característica barra ingles*/
 #Ingles {
   width: 90%;
   height: 40px;
   background-color: rgba(183,250,28,0.7)
 }
 
+/*Característica barra frances*/
 #Frances {
   width: 70%;
   height: 40px;
   background-color: rgba(213,250,28,0.7)
 }
 
-
+/*Características mis habilidades*/
 #skills {
   position: relative;
   top: 50px;
@@ -144,30 +171,21 @@ a{
   margin-top: -250px;
 }
 
-
+/*Características contenedor de habilidades programación*/
 .programacion {
   width: 600px;
   justify-content:  center;
   align-content:  center;
 }
 
-
-
-
+/*Características imagenes lenguajes de programación*/
 .imgCoding {
   height:   150px;
   width:  150px;
 }
 
-h1{
-  font-size: 50px;
-}
 
-h2{
-  font-size: 50px;
-}
-
-
+/*Características cuando la pantalla es pequeña*/
 @media only screen and (max-width:767px) {
 
   #imagenRio {
