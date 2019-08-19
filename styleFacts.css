@@ -5,30 +5,58 @@ body {
 #lago {
   width: 100%;
   height: 150px;
+  position: fixed;
+  z-index: 2;
 }
 
 .imgSuperior {
   position: fixed;
+  top: 150px;
   width: 100%;
   z-index: 2;
 }
 
-.contenido {
+.content {
   position: relative;
-  top: 200px;
+  top: 180px;
   z-index: 1;
-
 }
 
+#myFacts {
+  content: "";
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+}
 
-.barra {
-  background-color: rgba(21,120,142,1);
+.row.inicio {
+  background-color: rgba(35,86,175,1);
   text-align: center;
   font-weight: bold;
   height: 30px;
   font-size: 20px;
-  display: grid;
-  grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+  position: fixed;
+  top: 150px;
+  width: 100%;
+}
+
+.row a {
+  color: black;
+}
+
+.fotos {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  color: rgba(170,168,182,0.5);
+  border: 2px solid;
+}
+
+.col-xs-6 {
+  background-color: rgba(35,86,175,1);
 }
 
 h1{
@@ -39,6 +67,32 @@ h2{
   font-size: 50px;
 }
 
-.barra a {
-  color: black;
+@media only screen and (max-width:767px) {
+
+  #lago {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .row.inicio {
+    height: 10vh;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(35,86,175,1);
+    width: 100%;
+    position: fixed;
+    top: 100px;
+  }
+
+  .content {
+    position: relative;
+    top: 200px;
+    font-size:50%;
+  }
+
 }
+
