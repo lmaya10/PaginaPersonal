@@ -27,7 +27,6 @@ a{
 }
 
 .row {
-  height: 20vh;
   font-size: 20px;
   font-weight: bold;
   width: 100%;
@@ -48,11 +47,19 @@ a{
 }
 
 @media only screen and (max-width:600px) {
+  .row {
+    height: 10vh;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
   .row.actual {
     background-color: rgba(193,180,135,1);
     width: 100%;
-    top: 260px;
+    top: 205px;
     position: fixed;
+
   }
 
 }
