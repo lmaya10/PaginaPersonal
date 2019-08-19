@@ -107,6 +107,7 @@
   <footer>
     <!-- Script para conocer cuantos dias lleva habilitado el link -->
     <script>
+      "use strict";
       var fechaCreacion = new Date('2019-08-18');
       var hoy = new Date();
       var dif = hoy-fechaCreacion;
@@ -114,11 +115,13 @@
     &copy; Made by Laura Maya Diaz
     <p> Visited el:
       <script>
+        "use strict";
         document.write(hoy);
       </script>
     </p>
     <p> The link has been enabled for
       <script>
+        "use strict";
         document.write(Math.ceil(dif/(1000*60*60*24)));
       </script>
       days
