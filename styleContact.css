@@ -43,11 +43,17 @@ body {
   text-align: center;
   font-weight: bold;
   height: 30px;
+  max-height: 90px;
   font-size: 20px;
   width: 100%;
   position: fixed;
   top: 150px;
 }
+
+.col-xs {
+  background-color: rgba(247,244,13,1);
+}
+
 
 .row.inicio a {
   color:black;
