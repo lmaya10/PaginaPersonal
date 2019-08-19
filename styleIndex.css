@@ -28,13 +28,13 @@ body {
 .nomPrincipal {
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(199 ,155,111,0.6);
+  background-color: rgba(255,69,0,0.2);
   width: 100%;
 }
 
 
 .row {
-  background-color: rgba(232,151,105,0.6);
+  background-color: rgba(255,127,80,0.4);
   text-align: center;
   font-size: 1.75rem;
 }
@@ -58,4 +58,9 @@ h2{
 
 .barra a {
   color: black;
+}
+
+.piePagina {
+  color:white;
+
 }

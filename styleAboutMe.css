@@ -2,6 +2,11 @@ body {
   font-family: 'Amatic SC', cursive;
 }
 
+footer{
+  position: relative;
+  top: 100px;
+}
+
 a{
   color: black;
 }
