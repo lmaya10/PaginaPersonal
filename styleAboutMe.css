@@ -9,12 +9,14 @@ a{
 #imagenRio {
   width: 100%;
   height: 150px;
+  position: fixed;
+  z-index: 2;
 }
 
 .imgSuperior {
   position: fixed;
+  top: 150px;
   width: 100%;
-  height: 200px;
   z-index: 2;
 }
 
@@ -25,21 +27,24 @@ a{
 }
 
 .row {
-  text-align: center;
   height: 30px;
   font-size: 20px;
   font-weight: bold;
   width: 100%;
-  justify-content: center;
-  align-self: center;
+  text-align: center;
 }
 
-.inicio {
+.row.inicio {
   background-color: rgba(131,106,15,1);
+  width: 100%;
+  position: fixed;
 }
 
-.actual {
+.row.actual {
   background-color: rgba(193,180,135,1);
+  width: 100%;
+  top: 180px;
+  position: fixed;
 }
 
 #miFoto {
@@ -58,12 +63,9 @@ a{
 }
 
 .myInfo {
-  width: 60%;
+  width: 100%;
   height: 350px;
   margin: auto;
-  display: grid;
-  grid-template: 1fr / 1fr 2fr;
-  grid-gap: 20px;
 }
 
 .myInfo p {
@@ -73,7 +75,7 @@ a{
 
 #myLanguages {
   position: relative;
-  width: 60%;
+  width: 80%;
   margin: auto;
   font-family: 'Lobster', cursive;
   padding-top: 250px;
@@ -81,8 +83,44 @@ a{
 
 }
 
-.lenguajes {
+.porcentajes {
+  margin: auto;
+  color: black;
 }
+
+/*
+.idioma {
+  width: 100%;
+  height: 40px;
+
+}*/
+.progress {
+  height: 40px;
+}
+
+.progress-bar {
+  color: black;
+  font-size: 20px;
+}
+
+#Español {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(112,250,28,0.7);
+}
+
+#Ingles {
+  width: 90%;
+  height: 40px;
+  background-color: rgba(183,250,28,0.7)
+}
+
+#Frances {
+  width: 70%;
+  height: 40px;
+  background-color: rgba(213,250,28,0.7)
+}
+
 
 #skills {
   position: relative;
@@ -94,6 +132,7 @@ a{
   margin-top: -250px;
 }
 
+
 .programacion {
   display:  grid;
   width: 600px;
@@ -103,44 +142,13 @@ a{
   align-content:  center;
 }
 
+
+
+
 .imgCoding {
   height:   150px;
   width:  150px;
 }
-
-.porcentajes {
-  display: grid;
-  margin: auto;
-  grid-template: repeat(3, 2fr) / 1fr 1fr;
-  color: black;
-  grid-row-gap: 10px;
-}
-
-.idioma {
-  width: 100%; /* Full width */
-  height: 40px;
-  background-color: #ddd; /* Grey background */
-
-}
-
-#Español {
-  height: 40px;
-  width: 100%;
-  background-color: rgba(112,250,28,0.7);
-} /* Amarillo */
-
-#Ingles {
-  width: 90%;
-  height: 40px;
-  background-color: rgba(183,250,28,0.7)
-} /* Amarillo */
-
-#Frances {
-  width: 70%;
-  height: 40px;
-  background-color: rgba(213,250,28,0.7)
-} /* Amarillo */
-
 
 h1{
   font-size: 50px;
@@ -148,8 +156,4 @@ h1{
 
 h2{
   font-size: 50px;
-}
-
-.barra a {
-  color: black;
 }

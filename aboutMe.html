@@ -20,8 +20,8 @@
 </head>
 <body>
 
-  <div class="container-fluid imgSuperior">
-    <img id = "imagenRio" src = "Imagenes/Rio.png" alt = "Rio San Jose Del Guaviare" />
+  <img class="img-fluid" id = "imagenRio" src = "Imagenes/Rio.png" alt = "Rio San Jose Del Guaviare" />
+  <div class="container imgSuperior">
     <div class="row inicio">
       <div class = "col-md">
         <a href="index"> Home </a>
@@ -30,65 +30,99 @@
         <a href="aboutMe">About me </a>
       </div>
       <div class = "col-md">
-        <a href="facts">Interesting Facts</a>
-      </div>
-      <div class = "col-md">
         <a href="contact">Contact</a>
       </div>
     </div>
     <div class="row actual">
-      <a href="#myInformation"> My Information </a>
-      <a href="#myLanguages">  My Languages </a>
-      <a href="#skills" > Skills </a>
-      <a href="#experience"> Experience </a>
+      <div class = "col-md">
+        <a href="aboutMe#myInformation"> My Information </a>
+      </div>
+      <div class = "col-md">
+        <a href="#myLanguages">  My Languages </a>
+      </div>
+      <div class = "col-md">
+        <a href="#skills" > Skills </a>
+      </div>
+      <div class = "col-md">
+        <a href="#experience"> Experience </a>
+      </div>
     </div>
   </div>
 
   <div class="content">
     <div id = "myInformation">
-      <div class="myInfo">
-        <img id="miFoto" src = "Imagenes/Yo.png" alt="Foto personal"/>
-        <p> My name is Laura Maya. I'm 23 years old. I live in Bogotá, Colombia. I'm currently enrolled at Universidad de los Andes studying Industrial Engineering and Computer Science. </p>
-
-      </div>
-    </div>
-    <div id ="myLanguages">
-      <div class="lenguajes">
-        <h1> Languages </h1>
-        <br><br><br>
-        <div class="porcentajes">
-          <p> Español </p>
-          <div class="idioma">
-            <div id = "Español">100%</div>
+      <div class="container myInfo">
+        <div class="row myInfo">
+          <div class="col-md-6">
+            <img id="miFoto" src = "Imagenes/Yo.png" alt="Foto personal"/>
           </div>
-          <p> Ingles </p>
-          <div class="idioma">
-            <div id = "Ingles">90%</div>
-          </div>
-          <p> Frances </p>
-          <div class="idioma">
-            <div id = "Frances">70%</div>
+          <div class="col-md-6">
+            <p> My name is Laura Maya. I'm 23 years old. I live in Bogotá, Colombia. I'm currently enrolled at Universidad de los Andes studying Industrial Engineering and Computer Science. </p>
           </div>
         </div>
       </div>
     </div>
-    <section id = "skills">
-      <h2> Skills </h2>
-      <br><br>
-      <h3> Coding Skills</h3>
+
+    <div id ="myLanguages">
+      <h1> Languages </h1>
       <br><br><br>
-      <div class = "programacion">
-        <img class= "imgCoding" src="Imagenes/java.png" alt="Logo Java">
-        <img class= "imgCoding" src="Imagenes/erre.png" alt="Logo Erre">
-        <img class= "imgCoding" src="Imagenes/visual.png" alt="Logo Visual">
-        <img class= "imgCoding" src="Imagenes/python.png" alt="Logo Python">
+      <div class="container porcentajes">
+        <div class ="row">
+          <div class ="col-md">
+            <p> Español </p>
+          </div>
+          <div class="col-md-5 idioma">
+            <div class="progress">
+              <div class="progress-bar" id="Español">
+                100%
+              </div>
+            </div><br>
+          </div>
+        </div>
+        <br><br><br>
+        <div class ="row">
+          <div class ="col-md">
+            <p> Ingles </p>
+          </div>
+          <div class="col-md-5 idioma">
+            <div class="progress-bar" id="Ingles">
+              90%
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <div class ="row">
+          <div class ="col-md">
+            <p> Frances </p>
+          </div>
+          <div class="col-md-5 idioma">
+            <div class="progress-bar" id="Frances">
+              70%
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <div id = "skills">
+    <h2> Skills </h2>
+    <br><br>
+    <h3> Coding Skills</h3>
+    <br><br><br>
+    <div class = "programacion">
+      <img class= "imgCoding" src="Imagenes/java.png" alt="Logo Java">
+      <img class= "imgCoding" src="Imagenes/erre.png" alt="Logo Erre">
+      <img class= "imgCoding" src="Imagenes/visual.png" alt="Logo Visual">
+      <img class= "imgCoding" src="Imagenes/python.png" alt="Logo Python">
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
