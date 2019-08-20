@@ -43,3 +43,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+### Comentarios
+La página es responsiva, se ve limpia y es fácil de usar. Sin embargo, pones todos los archivos en la raíz del proyecto. Recuerda que se recomienda crear carpetas por ejemplo "styles" que contengan todos los archivos .css, lo mismo para los scripts. 
+
+Como conclusión, se nota el esfuerzo y tiempo dedicado a la página. Súper bien. 
